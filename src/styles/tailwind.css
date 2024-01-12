@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+ .font-title {
+  @apply text-[21px] sm:text-[16px] tracking-[1px] uppercase font-raleway
+ }
+
+ .separator {
+  @apply my-[20px]
+ }
+
+ .skill {
+  @apply bg-gray-200 rounded-sm px-[2px] py-[1px]
+ }
+
+ ul {
+  list-style-position: inside;
+ }
+ li::marker {
+  @apply text-gray-400
+}
+}
