@@ -6,7 +6,7 @@
 		"dev": "vite",
 		"build": "vite build",
 		"preview": "vite preview",
-		"git:deploy": "git subtree push --prefix dist origin main"
+		"git:deploy": "git push origin `git subtree split --prefix dist cv`:main --force"
 	},
 	"dependencies": {
 		"preact": "^10.13.1",
