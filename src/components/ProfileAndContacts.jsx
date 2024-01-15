@@ -37,8 +37,9 @@ export const ProfileAndContacts = ({
               </span>
             </li>
           ))}
-          <li class="flex sm:flex-row flex-col gap-2 items-center justify-center mt-2 sm:mt-0 sm:justify-start">
+          {/* <li class="flex sm:flex-row flex-col gap-2 items-center justify-center mt-2 sm:mt-0 sm:justify-start">
             <a class="flex items-center" href="https://github.com/glebchanskiy">
+              <span class="hidden sm:inline">github</span>
               <GitHubIcon class="my-auto" />
               <span class="sm:hidden inline">github</span>
             </a>
@@ -53,7 +54,7 @@ export const ProfileAndContacts = ({
               <LinkedinIcon class="my-auto" />
               <span class="sm:hidden inline">linkedin</span>
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
