@@ -27,6 +27,15 @@ export function App() {
       />
       <hr class="separator" />
 
+      <div class="flex gap-2 flex-wrap justify-center sm:justify-start">
+        <span class="skill !px-3">Java</span>
+        <span class="skill !px-3">Spring Framework</span>
+        <span class="skill !px-3">TypeScript</span>
+        <span class="skill !px-3">React</span>
+      </div>
+      
+      <hr class="separator" />
+
       <ProfileAndContacts
         profileText={localizedState.personal.profile}
         contacts={localizedState.personal.contacts}
