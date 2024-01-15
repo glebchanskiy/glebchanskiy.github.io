@@ -556,14 +556,14 @@ video {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .container {
-    max-width: 768px;
+    max-width: 800px;
   }
 }
 
 .font-title {
-  font-family: "Raleway", "Bitter", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 21px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -584,8 +584,8 @@ video {
   border-radius: 0.125rem;
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-  padding-left: 2px;
-  padding-right: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
   padding-top: 1px;
   padding-bottom: 1px;
 }
@@ -643,6 +643,10 @@ li::marker {
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -712,6 +716,11 @@ li::marker {
   padding: 0.5rem;
 }
 
+.\!px-3 {
+  padding-left: 0.75rem !important;
+  padding-right: 0.75rem !important;
+}
+
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -735,16 +744,12 @@ li::marker {
   text-align: center;
 }
 
-.font-bitter {
-  font-family: "Bitter", sans-serif;
+.font-heading {
+  font-family: "Josefin Sans", sans-serif;
 }
 
-.font-josefin {
-  font-family: "Josefin Sans", "Bitter", sans-serif;
-}
-
-.font-raleway {
-  font-family: "Raleway", "Bitter", sans-serif;
+.font-primary {
+  font-family: "Raleway", sans-serif;
 }
 
 .text-\[16px\] {
@@ -771,10 +776,6 @@ li::marker {
   font-weight: 700;
 }
 
-.font-extrabold {
-  font-weight: 800;
-}
-
 .font-normal {
   font-weight: 400;
 }
@@ -798,6 +799,12 @@ li::marker {
 
 .transition-all {
   transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }

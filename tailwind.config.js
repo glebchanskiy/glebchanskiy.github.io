@@ -11,10 +11,10 @@ export default {
         center: true,
         screens: {
           sm: '600px',
-          md: '768px',
-          lg: '768px',
-          xl: '768px',
-          '2xl': '768px',
+          md: '800px',
+          lg: '800px',
+          xl: '800px',
+          '2xl': '800px',
         },
       },
       fontFamily: {

@@ -47,7 +47,10 @@ export function App() {
       />
       <hr class="separator" />
 
-      <Skills skills={localizedState.personal.skills} sections={localizedState.sections} />
+      <Skills
+        skills={localizedState.personal.skills}
+        sections={localizedState.sections}
+      />
     </div>
   )
 }
