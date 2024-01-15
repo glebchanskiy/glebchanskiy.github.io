@@ -32,7 +32,7 @@ export const ProfileAndContacts = ({
               class="cursor-pointer text-nowrap"
               key={c.label}
             >
-              <span class="px-1 rounded border border-gray-100 hover:border-gray-300 transition-colors duration-300 ease-out">
+              <span class="px-1 rounded border border-white hover:border-gray-300 transition-colors duration-300 ease-out">
                 {c.label}
               </span>
             </li>

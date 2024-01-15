@@ -10,11 +10,11 @@ export default {
       container: {
         center: true,
         screens: {
-          sm: '600px',
-          md: '800px',
-          lg: '800px',
-          xl: '800px',
-          '2xl': '800px',
+          sm: '900px',
+          md: '900px',
+          lg: '900px',
+          xl: '900px',
+          '2xl': '900px',
         },
       },
       fontFamily: {

@@ -11,11 +11,11 @@ export const Header = ({ personName, lang, changeLanguage }) => {
           {personName}
         </h2>
       </div>
-      <div class="flex flex-col ">
+      {/* <div class="flex flex-col ">
         <button
           onClick={() => changeLanguage(Langs.en)}
           class={`px-[3px] py-[1px] ${
-            lang === Langs.en ? "bg-gray-300 rounded-sm" : ""
+            lang === Langs.en ? "bg-gray-200 rounded-sm" : ""
           } transition-all duration-700 ease-out`}
         >
           EN
@@ -23,12 +23,12 @@ export const Header = ({ personName, lang, changeLanguage }) => {
         <button
           onClick={() => changeLanguage(Langs.ru)}
           class={`px-[3px] py-[1px] ${
-            lang === Langs.ru ? "bg-gray-300 rounded-sm" : ""
+            lang === Langs.ru ? "bg-gray-200 rounded-sm" : ""
           } transition-all duration-700 ease-out`}
         >
           RU
         </button>
-      </div>
+      </div> */}
     </div>
   )
 }

@@ -18,7 +18,7 @@ export function App() {
 
   return (
     <div
-      class={`font-primary text-[18px] sm:text-[14px] font-normal tracking-[0.1px] text-text container bg-gray-100 mx-auto p-2 pb-20 sm:my-5  sm:p-8`}
+      class={`font-primary text-[18px] sm:text-[14px] font-normal tracking-[0.1px] text-text container mx-auto p-2 pb-20 sm:p-8`}
     >
       <Header
         personName={localizedState.personal.name}
@@ -33,7 +33,7 @@ export function App() {
         <span class="skill !px-3">TypeScript</span>
         <span class="skill !px-3">React</span>
       </div>
-      
+
       <hr class="separator" />
 
       <ProfileAndContacts
