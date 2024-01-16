@@ -1,0 +1,27 @@
+[
+ {
+   "name": "variants.world",
+   "description":
+     "В рамках данного проекта разрабатывался сервис, позволяющий пользователям chess.com предлагать и обсуждать новые варианты шахмат.<br><i>Стек</i>: `AstroJS`,  `Preact`,  `Prisma` + `Supabase`, `PostgreSQL`, `Tailwind`.<br><i>Обязанности</i>: full development and implementation, database design, unit testing."
+ },
+ {
+   "name": "ostis-deploy",
+   "description":
+     "Платформа, на которой студенты универа нашей специальности могли бы хостить свои базы знаний и иметь к ним удобный доступ.<br><i>Стек</i>: `Deno`, `Fresh`, `Docker`, `GitHub App`, `Tailwind`.<br><i>Обязанности</i>: development and implementation of the functionality, github auth implementation, ui/ux."
+ },
+ {
+   "name": "pie-tunes",
+   "description":
+     "Курсовой проект в рамках которого разрабатывался стриминговый сервис с системой рекомендаций на основе графовой базы знаний.<br><i>Стек</i>:  `Spring Boot` (Security, Web),  `MinIO`,  `Preact`, `Redux`, `Gradle`,  `Docker`.<br><i>Обязанности</i>: architecture designe, implementation of REST services, knowledgebase design, ui/ux."
+ },
+ {
+   "name": "http-server",
+   "description":
+     "Простая реализация http сервера при помощи Java NIO, позволяющая создавать простейшие веб-приложения.<br><i>Стек</i>: `Java`.<br><i>Обязанности</i>: full development and implementation."
+ },
+ {
+   "name": "dnd-lists",
+   "description":
+     "Приложение позволяющее создавать/редактировать листы персонажей для игры Dungeons & Dragons.<br><i>Стек</i>: `Spring Boot` (Security, Web, Data JPA), `PostgreSQL`, `TypeScript`, `Preat`, `Redux`, `Bootstrap`.<br><i>Обязанности</i>: interface development and implementation, implementation of REST service."
+ }
+]
