@@ -22,6 +22,6 @@
  {
    "name": "dnd-lists",
    "description":
-     "An application that allows you to create/edit character sheets for the game Dungeons & Dragons.<br><i>Стек:</i> `Spring Boot` (Security, Web, Data JPA), `PostgreSQL`, `TypeScript`, `Preat`, `Redux`, `Bootstrap`.<br><i>Responsibilities:</i> interface development and implementation, implementation of REST service."
+     "An application that allows you to create/edit character sheets for the game Dungeons & Dragons.<br><i>Стек:</i> `Spring Boot` (Security, Web, Data JPA), `PostgreSQL`, `TypeScript`, `Preact`, `Redux`, `Bootstrap`.<br><i>Responsibilities:</i> interface development and implementation, implementation of REST service."
  }
 ]

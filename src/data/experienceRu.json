@@ -22,6 +22,6 @@
  {
    "name": "dnd-lists",
    "description":
-     "Приложение позволяющее создавать/редактировать листы персонажей для игры Dungeons & Dragons.<br><i>Стек:</i> `Spring Boot` (Security, Web, Data JPA), `PostgreSQL`, `TypeScript`, `Preat`, `Redux`, `Bootstrap`.<br><i>Обязанности:</i> interface development and implementation, implementation of REST service."
+     "Приложение позволяющее создавать/редактировать листы персонажей для игры Dungeons & Dragons.<br><i>Стек:</i> `Spring Boot` (Security, Web, Data JPA), `PostgreSQL`, `TypeScript`, `Preact`, `Redux`, `Bootstrap`.<br><i>Обязанности:</i> interface development and implementation, implementation of REST service."
  }
 ]
