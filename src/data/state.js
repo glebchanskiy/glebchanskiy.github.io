@@ -29,6 +29,7 @@ const skillsRu = [
   "Опыт командной разработки",
   "Понимание устройства сетей",
   "Опыт работы с linux серверами",
+  "Языки: Russion - Native, English - Intermediate"
 ].map(makeItSkill)
 const skillsEn = [
   "Primary languages: `Java`, `TypeScript`",
@@ -44,6 +45,7 @@ const skillsEn = [
   "Experience in team development",
   "Understanding of network architecture",
   "Experience with Linux servers",
+  "Languages: Russion - Native, English - Intermediate"
 ].map(makeItSkill)
 
 const profileEn =
