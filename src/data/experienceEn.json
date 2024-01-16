@@ -1,0 +1,27 @@
+[
+ {
+   "name": "variants.world",
+   "description":
+     "A service that allows users to chess.com to propose and discuss new chess variants.<br><i>Стек:</i> `AstroJS`,  `Preact`,  `Prisma` + `Supabase`, `PostgreSQL`, `Tailwind`.<br><i>Responsibilities:</i> full development and implementation, database design, unit testing."
+ },
+ {
+   "name": "ostis-deploy",
+   "description":
+     "A platform on which university students of our specialty could host their knowledge bases and have convenient access to them.<br><i>Стек:</i> `Deno`, `Fresh`, `Docker`, `GitHub App`, `Tailwind`.<br><i>Responsibilities:</i> development and implementation of the functionality, github auth implementation, ui/ux."
+ },
+ {
+   "name": "pie-tunes",
+   "description":
+     "A course project in which a streaming service was developed with a recommendation system based on a graph knowledge base.<br><i>Стек:</i> `Spring Boot` (Security, Web), `MinIO`, `Preact`, `Redux`, `Gradle`, `Docker`.<br><i>Responsibilities:</i> architecture designe, implementation of REST services, knowledgebase design, ui/ux."
+ },
+ {
+   "name": "http-server",
+   "description":
+     "A simple implementation of an http server using Java NIO, allowing you to create simple web applications.<br><i>Стек:</i> `Java`.<br><i>Responsibilities:</i> full development and implementation."
+ },
+ {
+   "name": "dnd-lists",
+   "description":
+     "An application that allows you to create/edit character sheets for the game Dungeons & Dragons.<br><i>Стек:</i> `Spring Boot` (Security, Web, Data JPA), `PostgreSQL`, `TypeScript`, `Preact`, `Redux`, `Bootstrap`.<br><i>Responsibilities:</i> interface development and implementation, implementation of REST service."
+ }
+]

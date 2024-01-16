@@ -5,7 +5,7 @@ import { ProfileAndContacts } from "@components/ProfileAndContacts"
 import { Education } from "@components/Education"
 import { Experience } from "@components/Experience"
 import { Skills } from "@components/Skills"
-import { state } from "./state"
+import { state } from "./data/state"
 
 import "@styles/computed.css"
 import { Langs } from "@utils"
