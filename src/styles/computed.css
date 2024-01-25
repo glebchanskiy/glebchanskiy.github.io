@@ -797,6 +797,18 @@ li::marker {
   color: rgb(33 33 33 / var(--tw-text-opacity));
 }
 
+.text-inherit {
+  color: inherit;
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.decoration-inherit {
+  text-decoration-color: inherit;
+}
+
 .opacity-70 {
   opacity: 0.7;
 }

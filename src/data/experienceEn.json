@@ -1,6 +1,7 @@
 [
   {
     "name": "variants.world",
+    "link": "https://variants.world",
     "description": "A service enabling users of chess.com to suggest and discuss new chess variants.<br><i>Stack:</i> `AstroJS`,  `Preact`,  `Prisma` + `Supabase`, `PostgreSQL`, `Tailwind`.<br><i>Responsibilities:</i> design and implementation, database design, unit testing."
   },
   {

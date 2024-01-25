@@ -15,6 +15,7 @@ export const Experience = ({ experience, sections }) => {
           <ExperienceCard
             key={e.name}
             name={e.name}
+            link={e.link}
             description={e.description}
           />
         ))}

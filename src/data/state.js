@@ -7,10 +7,12 @@ import experienceEnRow from "./experienceEn.json"
 import experienceRuRow from "./experienceRu.json"
 
 const experienceEn = experienceEnRow.map((e) => ({
+  link: e.link,
   name: e.name,
   description: makeItSkill(e.description),
 }))
 const experienceRu = experienceRuRow.map((e) => ({
+  link: e.link,
   name: e.name,
   description: makeItSkill(e.description),
 }))
