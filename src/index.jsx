@@ -18,7 +18,7 @@ export function App() {
 
   return (
     <div
-      class={`font-primary text-[16px] sm:text-[14px] font-normal tracking-[0.1px] text-text container sm:bg-gray-100 mx-auto p-6 pb-20 sm:my-5  sm:p-8`}
+      class={`font-primary text-[16px] sm:text-[14px] font-normal tracking-[0.1px] text-text container mx-auto p-6 pb-20 sm:my-5  sm:p-8`}
     >
       <Header
         personName={localizedState.personal.name}

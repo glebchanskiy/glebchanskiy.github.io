@@ -701,8 +701,9 @@ li::marker {
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
-.p-2 {
-  padding: 0.5rem;
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
 .p-6 {
@@ -749,10 +750,6 @@ li::marker {
   font-size: 16px;
 }
 
-.text-\[18px\] {
-  font-size: 18px;
-}
-
 .text-\[20px\] {
   font-size: 20px;
 }
@@ -786,16 +783,8 @@ li::marker {
   color: rgb(33 33 33 / var(--tw-text-opacity));
 }
 
-.text-inherit {
-  color: inherit;
-}
-
 .underline {
   text-decoration-line: underline;
-}
-
-.decoration-inherit {
-  text-decoration-color: inherit;
 }
 
 .opacity-70 {
@@ -832,6 +821,11 @@ li::marker {
 }
 
 @media (min-width: 640px) {
+  .sm\:my-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
   .sm\:mt-0 {
     margin-top: 0px;
   }
@@ -871,10 +865,6 @@ li::marker {
 
   .sm\:p-8 {
     padding: 2rem;
-  }
-
-  .sm\:p-2 {
-    padding: 0.5rem;
   }
 
   .sm\:text-left {
