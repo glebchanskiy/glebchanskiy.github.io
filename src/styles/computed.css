@@ -705,6 +705,10 @@ li::marker {
   padding: 0.5rem;
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
 .\!px-3 {
   padding-left: 0.75rem !important;
   padding-right: 0.75rem !important;
@@ -782,6 +786,18 @@ li::marker {
   color: rgb(33 33 33 / var(--tw-text-opacity));
 }
 
+.text-inherit {
+  color: inherit;
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.decoration-inherit {
+  text-decoration-color: inherit;
+}
+
 .opacity-70 {
   opacity: 0.7;
 }
@@ -848,8 +864,17 @@ li::marker {
     gap: 1.25rem;
   }
 
+  .sm\:bg-gray-100 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  }
+
   .sm\:p-8 {
     padding: 2rem;
+  }
+
+  .sm\:p-2 {
+    padding: 0.5rem;
   }
 
   .sm\:text-left {
