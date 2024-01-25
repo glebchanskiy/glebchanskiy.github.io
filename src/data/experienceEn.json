@@ -1,22 +1,22 @@
 [
   {
     "name": "variants.world",
-    "description": "A service that allows users to propose and discuss new chess variants, for the platform chess.com.<br><i>Stack:</i> `AstroJS`,  `Preact`,  `Prisma` + `Supabase`, `PostgreSQL`, `Tailwind`.<br><i>Responsibilities:</i> full development and implementation, database design, unit testing."
+    "description": "A service enabling users of chess.com to suggest and discuss new chess variants.<br><i>Stack:</i> `AstroJS`,  `Preact`,  `Prisma` + `Supabase`, `PostgreSQL`, `Tailwind`.<br><i>Responsibilities:</i> design and implementation, database design, unit testing."
   },
   {
     "name": "ostis-deploy",
-    "description": "A platform on which university students of our specialty could host their knowledge bases and have convenient access to them.<br><i>Stack:</i> `Deno`, `Fresh`, `Docker`, `GitHub App`, `Tailwind`.<br><i>Responsibilities:</i> development and implementation of the functionality, github auth implementation, ui/ux."
+    "description": "A platform designed for university students, providing them with the capability to host and conveniently access their knowledge bases.<br><i>Stack:</i> `Deno`, `Fresh`, `Docker`, `GitHub App`, `Tailwind`.<br><i>Responsibilities:</i> design and implementation of the functionality, github auth implementation, ui/ux."
   },
   {
     "name": "pie-tunes",
-    "description": "A streaming service with a recommendation system based on the graph knowledge base.<br><i>Stack:</i> `Spring Boot` (Security, Web), `MinIO`, `Preact`, `Redux`, `Gradle`, `Docker`.<br><i>Responsibilities:</i> architecture designe, implementation of REST services, knowledgebase design, ui/ux."
+    "description": "A streaming platform, featuring a recommendation system built upon a graph-based knowledge base. (Course project)<br><i>Stack:</i> `Spring Boot` (Security, Web), `MinIO`, `Preact`, `Redux`, `Gradle`, `Docker`.<br><i>Responsibilities:</i> design, implementation of the RESTfull service, knowledgebase design, ui/ux."
   },
   {
     "name": "http-server",
-    "description": "A simple implementation of an http server using Java NIO, allowing to create simple web applications.<br><i>Stack:</i> `Java`.<br><i>Responsibilities:</i> full development and implementation."
+    "description": "A simple implementation of an http server using Java NIO, allowing you to create simple web applications.<br><i>Stack:</i> `Java`.<br><i>Responsibilities:</i> design and implementation."
   },
   {
     "name": "dnd-lists",
-    "description": "An application that allows you to create/edit character lists for the Dungeons & Dragons game.<br><i>Stack:</i> `Spring Boot` (Security, Web, Data JPA), `PostgreSQL`, `TypeScript`, `Preact`, `Redux`, `Bootstrap`.<br><i>Responsibilities:</i> frontend development and implementation, Implementation of the REST service functionality."
+    "description": "An application designed for crafting and modifying character sheets for the Dungeons & Dragons game.<br><i>Stack:</i> `Spring Boot` (Security, Web, Data JPA), `PostgreSQL`, `TypeScript`, `Preact`, `Redux`, `Bootstrap`.<br><i>Responsibilities:</i> frontend design and implementation, database design, auth implementation, implementation service functionality."
   }
 ]
