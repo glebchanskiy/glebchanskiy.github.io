@@ -21,33 +21,33 @@ const skillsRu = [
   "Основные языки: `Java`, `TypeScript`",
   "Фреймворки: `Spring`, `Hibernate`, `React`, `Preact`, `AstroJS`, `Redux`",
   "Базы данных: `PostgreSQL`, `Neo4j`",
-  "`Docker` и инструменты оркестрирвания такие как `docker compose`",
+  "`Docker`, `docker compose`",
   "Написание скриптов: `bash`, `python`",
   "Работал с: `Kafka`, `MinIO`, `Supabase`, `Deno`, `Fresh`",
   "Не основные языки: `python`, `c++`",
   "Прочее: `CSS`, `HTML`, `Tailwind`",
   "Разработка диаграмм при помощи `UML`",
   "Операционные системы: Linux / MacOS",
-  "Опыт командной разработки",
+  "Опыт разработки в команде",
   "Понимание устройства сетей",
   "Опыт работы с linux серверами",
-  "Языки: Russion - Native, English - Intermediate"
+  "Языки: Russian - `native`, `English` - intermediate"
 ].map(makeItSkill)
 const skillsEn = [
   "Primary languages: `Java`, `TypeScript`",
   "Frameworks: `Spring`, `Hibernate`, `React`, `Preact`, `Astro`, `Redux`",
   "Databases: `PostgreSQL`, `Neo4j`",
-  "`Docker` and orchestration tools such as `docker compose`",
+  "`Docker`, `docker compose`",
   "Scripting: `bash`, `python`",
   "Worked with: `Kafka`, `MinIO`, `Supabase`, `Deno`, `Fresh`",
   "Additional languages: `python`, `c++`",
   "Other skills: `CSS`, `HTML`, `Tailwind`",
   "Application design with `UML`",
   "Operating systems: `Linux` / `MacOS`",
-  "Experience in team development",
+  "Teamwork experience",
   "Understanding of network architecture",
   "Experience with Linux servers",
-  "Languages: Russion - Native, English - Intermediate"
+  "Languages: `Russian` - native, `English` - intermediate"
 ].map(makeItSkill)
 
 const profileEn =
