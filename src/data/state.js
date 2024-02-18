@@ -20,40 +20,41 @@ const experienceRu = experienceRuRow.map((e) => ({
 const skillsRu = [
   "Основные языки: `Java`, `TypeScript`",
   "Фреймворки: `Spring`, `Hibernate`, `React`, `Preact`, `AstroJS`, `Redux`",
-  "Базы данных: `PostgreSQL`, `Neo4j`",
+  "Базы данных: `PostgreSQL`, `MongoDB`, `Neo4j`",
   "`Docker`, `docker compose`",
+  "Опыт с `Git`",
   "Написание скриптов: `bash`, `python`",
   "Работал с: `Kafka`, `MinIO`, `Supabase`, `Deno`, `Fresh`",
   "Не основные языки: `python`, `c++`",
   "Прочее: `CSS`, `HTML`, `Tailwind`",
   "Разработка диаграмм при помощи `UML`",
   "Операционные системы: Linux / MacOS",
-  "Опыт разработки в команде",
+  "Опыт управления серверами `Linux` через `SSH`",
   "Понимание устройства сетей",
-  "Опыт работы с linux серверами",
+  "Опыт разработки в команде",
   "Языки: Russian - `native`, `English` - intermediate"
 ].map(makeItSkill)
 const skillsEn = [
   "Primary languages: `Java`, `TypeScript`",
   "Frameworks: `Spring`, `Hibernate`, `React`, `Preact`, `Astro`, `Redux`",
-  "Databases: `PostgreSQL`, `Neo4j`",
+  "Databases: `PostgreSQL`, `MongoDB`, `Neo4j`",
   "`Docker`, `docker compose`",
+  "Experience with `Git`",
   "Scripting: `bash`, `python`",
   "Worked with: `Kafka`, `MinIO`, `Supabase`, `Deno`, `Fresh`",
   "Additional languages: `python`, `c++`",
   "Other skills: `CSS`, `HTML`, `Tailwind`",
-  "Application design with `UML`",
   "Operating systems: `Linux` / `MacOS`",
-  "Teamwork experience",
+  "Experience managing `Linux` servers via `SSH`",
   "Understanding of network architecture",
-  "Experience with Linux servers",
+  "Teamwork experience",
   "Languages: `Russian` - native, `English` - intermediate"
 ].map(makeItSkill)
 
 const profileEn =
-  "I love coding, and it's more than just a skill for me — it's a passion. I've spent the last three years studying information technology at university. While I haven't worked professionally yet, I've gained a lot of experience through education projects and pet-projects. I've mainly focused on learning backend technologies, but recently, I've been diving into frontend stack too. I've played around with different web frameworks and libraries and have worked with relation and non-relation databases. Right now, I'm on the lookout for an internship to keep learning and kickstart my journey as a web developer."
+  "I am a senior IT student at the university, currently looking for an internship to start working as a web developer.<br/>My main focus is backend development with the following key technologies: java, spring, hibernate, postgreSQL. I am an advanced linux/macOS user, and have hands-on experience managing remote Linux servers via ssh. Additionally, I am familiar with Docker and Docker Compose. As for version control systems, I have experience working with Git. Also, recently I’ve started learning frontend stack: typescript, react, redux, tailwind.<br/>I have several completed projects (study and personal) in my background, you can find their description below."
 const profileRu =
-  "Программирование для меня - это не просто навык, а страсть. Последние 3 года я активно изучаю  информационные технологии в универе. На данный момент у меня отсутствует коммерческий опыт разработки, однако имеется большой опыт работы над учебными и пет-проектами. Основной акцент делал на изучении backend технологий, но последнее время также активно изучаю frontend стек. Есть опыт работы с различными web-фреймворками и библиотеками. Опыт работы с реляционными и не реляционными базами данных, а также обширные знания в области графовых баз данных. В настоящее время активно ищу стажировку для своего дальнейшего развития и становления в роли web-разработчика."
+  "Я студент старшего курса IT-специальности в университете и в данный момент ищу стажировку, чтобы начать работать web-разработчиком.<br/>Мое основное направление - разработка backend с использованием следующих ключевых технологий: Java, Spring, PostgreSQL. Я продвинутый пользователь linux/macOS и имею практический опыт управления удаленными серверами Linux через ssh. Я знаком с Docker и Docker Compose. Что касается систем контроля версий, у меня есть опыт работы с Git. Кроме того, недавно я начал изучать frontend stack: TypeScript, React, Redux, Tailwind.<br/>У меня есть несколько завершённых проектов (учебных и пет), вы можете найти их описание ниже."
 
 const contactsEn = [
   { label: "Belarus, Minsk" },
