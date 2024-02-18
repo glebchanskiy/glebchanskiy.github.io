@@ -1,5 +1,4 @@
-import { GitHubIcon, LinkedinIcon, TelegramIcon } from "@icons"
-import { Langs, copyTextToClipboard } from "@utils"
+import { copyTextToClipboard } from "@utils"
 
 export const ProfileAndContacts = ({
   profileText,
@@ -14,7 +13,7 @@ export const ProfileAndContacts = ({
         >
           {sections.profile}
         </h2>
-        <p class="text-balance">{profileText}</p>
+        <p dangerouslySetInnerHTML={{__html: profileText}} class="text-balance"></p>
       </div>
 
       <hr class="sm:hidden separator" />
